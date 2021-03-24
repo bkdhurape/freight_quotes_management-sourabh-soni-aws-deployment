@@ -1,0 +1,362 @@
+[
+    {
+        "model": "region.Region",
+        "pk": 1,
+        "fields": {
+            "name": "Dangora",
+            "city": 1,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 2,
+        "fields": {
+            "name": "Balloke",
+            "city":  1,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 3,
+        "fields": {
+            "name": "Bohru",
+            "city": 2,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 4,
+        "fields": {
+            "name": "Bohad",
+            "city": 2,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 5,
+        "fields": {
+            "name": "Colvale",
+            "city": 3,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 6,
+        "fields": {
+            "name": "Bardez",
+            "city": 3,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 7,
+        "fields": {
+            "name": "Durbhat",
+            "city": 4,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 8,
+        "fields": {
+            "name": "Kundaim",
+            "city": 4,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 9,
+        "fields": {
+            "name": "Pallippuram",
+            "city": 5,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 10,
+        "fields": {
+            "name": "Njarackal",
+            "city":  5,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 11,
+        "fields": {
+            "name": "Munnar_region_1",
+            "city": 6,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 12,
+        "fields": {
+            "name": "Munnar_region_2",
+            "city": 6,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 13,
+        "fields": {
+            "name": "Covina",
+            "city": 7,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 14,
+        "fields": {
+            "name": "Culver City",
+            "city": 7,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 15,
+        "fields": {
+            "name": "Alameda",
+            "city": 8,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 16,
+        "fields": {
+            "name": "Albany",
+            "city": 8,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 17,
+        "fields": {
+            "name":"Herne Bay",
+            "city": 9,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 18,
+        "fields": {
+            "name": "New Romney",
+            "city": 9,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 19,
+        "fields": {
+            "name": "Hilliard",
+            "city": 10,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 20,
+        "fields": {
+            "name": "Etna",
+            "city":  10,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 21,
+        "fields": {
+            "name": "Hoboken_region_1",
+            "city": 11,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 22,
+        "fields": {
+            "name": "Hoboken_region_2",
+            "city": 11,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 23,
+        "fields": {
+            "name": "Magnolia",
+            "city": 12,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 24,
+        "fields": {
+            "name": "Stratford",
+            "city": 12,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 25,
+        "fields": {
+            "name": "Tocumen_region_1",
+            "city": 13,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 26,
+        "fields": {
+            "name": "Tocumen_region_2",
+            "city": 13,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 27,
+        "fields": {
+            "name": "Arenosa",
+            "city": 14,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 28,
+        "fields": {
+            "name": "Aspinwall",
+            "city": 14,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 29,
+        "fields": {
+            "name": "Hoboken",
+            "city": 15,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 30,
+        "fields": {
+            "name": "Boyaca_region_1",
+            "city": 15,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 31,
+        "fields": {
+            "name": "Boyaca_region_2",
+            "city": 16,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 32,
+        "fields": {
+            "name": "Honda_region_1",
+            "city": 16,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 33,
+        "fields": {
+            "name": "Honda_region_2",
+            "city": 17,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 34,
+        "fields": {
+            "name": "Capnnori",
+            "city": 17,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 35,
+        "fields": {
+            "name":"Pisa",
+            "city": 18,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "region.Region",
+        "pk": 36,
+        "fields": {
+            "name": "Lucca",
+            "city": 18,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    }
+]

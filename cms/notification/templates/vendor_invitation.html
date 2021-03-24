@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h3> Dear {{vendor_super_admin_name}},</h3>
+
+<h3>Below vendor is invited by {{ customer_company_name }}.<br />
+    To start receiving enquiry, please add this vendor.</h3>
+
+<p>Name: {{ name }}</p>
+<p>Email: {{ email }}</p>
+<p>Company Name: {{ company_name }}</p>
+<p>Contact No.: {{ dial_code }} {{ contact_no }}</p>
+
+<h3>Thanks, FCT Team</h3>
+
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h3> Dear {{name}},</h3>
+
+<h3>{{ customer_company_name }} has been added you as a vendor<br />
+    To start receiving enquiry, please register yourself as a vendor using below link.</h3>
+
+<p> <a href="{{invitation_link}}" target="_blank">{{invitation_link}}</a></p>
+
+<h3>Thanks, FCT Team</h3>
+
+{% endblock %}

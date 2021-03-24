@@ -1,0 +1,182 @@
+[
+    {
+        "model": "city.City",
+        "pk": 1,
+        "fields": {
+            "name": "Ludhiana",
+            "state": 1,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 2,
+        "fields": {
+            "name": "Amritsar",
+            "state":  1,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 3,
+        "fields": {
+            "name": "Panaji",
+            "state": 2,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 4,
+        "fields": {
+            "name": "Ponda",
+            "state": 2,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 5,
+        "fields": {
+            "name": "Kochi",
+            "state": 3,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 6,
+        "fields": {
+            "name": "Munnar",
+            "state": 3,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 7,
+        "fields": {
+            "name": "Los Angeles",
+            "state": 4,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 8,
+        "fields": {
+            "name": "San Francisco",
+            "state": 4,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 9,
+        "fields": {
+            "name": "Kent",
+            "state": 5,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 10,
+        "fields": {
+            "name": "Columbus",
+            "state":  5,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 11,
+        "fields": {
+            "name": "Hoboken",
+            "state": 6,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 12,
+        "fields": {
+            "name": "Cherry Hill",
+            "state": 6,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 13,
+        "fields": {
+            "name": "Tocumen",
+            "state": 7,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 14,
+        "fields": {
+            "name": "Colon",
+            "state": 7,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 15,
+        "fields": {
+            "name": "Boyaca_city_1",
+            "state": 8,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 16,
+        "fields": {
+            "name": "Boyaca_city_2",
+            "state": 8,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 17,
+        "fields": {
+            "name":"Honda",
+            "state": 9,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    },
+    {
+        "model": "city.City",
+        "pk": 18,
+        "fields": {
+            "name": "Guamo",
+            "state": 9,
+            "created_at":"2019-11-20 17:04:08.166082",
+            "updated_at":"2019-11-20 17:04:08.166082"
+        }
+    }
+]

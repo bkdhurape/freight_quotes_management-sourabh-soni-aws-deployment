@@ -1,0 +1,86 @@
+image:
+  name: docker/compose:1.25.4
+  entrypoint: [""]
+
+services:
+  - docker:dind
+  
+stages:
+  - build
+  - deploy
+
+before_script:
+    - export IMAGE=$CI_REGISTRY/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME
+    - "docker info"
+    - echo "$CI_REGISTRY_USER $CI_REGISTRY_PASSWORD $CI_REGISTRY"
+    - "docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY"
+   
+   
+build:
+  stage: build
+  tags:
+    - docker
+    - build
+  variables:
+   DOCKER_DRIVER: overlay
+
+  only:
+    - develop
+  artifacts:
+    paths:
+     - cms/
+
+  script:
+    - docker build -t registry.gitlab.com/freightcrate/freight_quotes_management .
+    - docker push registry.gitlab.com/freightcrate/freight_quotes_management
+
+#    - docker pull $IMAGE:web || true
+#    - docker pull $IMAGE:nginx || true
+#    - docker-compose -f docker-compose.prod.yml build
+#    - docker push freight_quotes_management_web:latest
+#    - docker push freight_quotes_management_nginx:latest
+deploy_staging:
+  # stage: deploy
+  # script:
+  #   - echo "Deploy to staging server"
+  #   - ssh root@beta.freightcrate.in "cd /home/freightcrate/ && docker pull registry.gitlab.com/freightcrate/freight_quotes_management && docker run"
+    
+  # image: registry.gitlab.com/freightcrate/freight_quotes_management:latest 
+  # environment:
+  #   name: beta
+  #   url: http://beta.freightcrate.in
+  # when: manual
+  # only:
+  #   - develop
+
+  stage: deploy
+  image: docker:latest
+  services:
+    - docker:dind
+  variables:
+    DOCKER_DRIVER: "overlay"
+    
+  script:
+    - "docker build -t ${CI_REGISTRY}/${CI_PROJECT_PATH}:latest --pull ."
+    - "docker push ${CI_REGISTRY}/${CI_PROJECT_PATH}:latest"
+  after_script:
+    - "docker logout ${CI_REGISTRY}"
+    
+  #script:
+  #  - mkdir -p ~/.ssh
+  #  - echo "$PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+  #  - cat ~/.ssh/id_rsa
+  #  - chmod 700 ~/.ssh/id_rsa
+  #  - eval "$(ssh-agent -s)"
+  #  - ssh-add ~/.ssh/id_rsa
+  #  - ssh-keyscan -H 'gitlab.com' >> ~/.ssh/known_hosts
+  #  - chmod +x ./deploy.sh
+  #  - echo "calling deploy.sh file"
+  #  - bash ./deploy.sh
+  #  - echo "done with deploy.sh file run"
+#  image: registry.gitlab.com/freightcrate/freight_quotes_management:latest 
+  when: manual
+  environment:
+    name: beta
+  only:
+    - develop
