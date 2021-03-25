@@ -108,8 +108,8 @@ class QuoteListView(generics.ListAPIView):
     pagination_class = CustomResultsSetPagination
     serializer_class = QuoteListingSerializers
     filter_backends = [DjangoFilterBackend,filters.SearchFilter]
-    search_fields = ['^shipment_term','pickup_location']
-    filterset_fields = ['quote_status','id']
+    search_fields = ['^shipment_term', 'pickup_location']
+    filterset_fields = ['quote_status', 'id']
 
     def get_queryset(self):
         queryset = Quote.objects.filter(~Q(status=StatusBase.INACTIVE), company_id=self.kwargs['company_id']).order_by(
@@ -136,11 +136,11 @@ class QuoteListView(generics.ListAPIView):
             else:
                 queryset = queryset.order_by("created_at")
 
-        # elif transport_modes is not None:
-        #     if transport_modes == 'dec':
-        #         queryset = queryset.order_by("-transport_modes")
-        #     else:
-        #         queryset = queryset.order_by("transport_modes")
+        elif transport_modes is not None:
+            if transport_modes == 'dec':
+                queryset = queryset.order_by("-transport_modes")
+            else:
+                queryset = queryset.order_by("transport_modes")
 
         return queryset
 
